@@ -1,0 +1,39 @@
+.careers-roll .careers-title {
+    background-image: radial-gradient(circle farthest-corner at 100% 150%, #d75dbc 10%, #6a4bc4 50%);
+    color:#fff;
+    padding: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.business-opp p{
+    padding: 25px 39px;
+}
+.business-opp ul li{
+    padding: 9px;
+}
+.opp-lower{
+    margin-top: 40px;
+    
+}
+.opp-lower ul li{
+    padding: 9px;
+}
+.tech-know{
+  
+    margin-top: 30px;
+}
+.tech-know ul li{
+    padding: 9px;
+}
+.experince{
+  
+    margin-top: 10px;
+}
+.experince p{
+    padding: 9px;
+}
+.wrap{
+    padding: 20px 30px;
+}
+

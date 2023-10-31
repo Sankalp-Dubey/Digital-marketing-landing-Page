@@ -1,0 +1,85 @@
+.sitemap-service-technology {
+  /* background-color: #f2f2f2; */
+  padding-bottom: 50px;
+}
+.sitemap-service-technology ul li {
+  color: #1df2f8;
+
+  transition: 0.3s;
+}
+.sitemap-service-technology ul li .sitemap-text {
+  color: #000000;
+  transition: 0.3s;
+}
+
+.sitemap-service-technology ul li:hover {
+  color: #bb06f4;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.sitemap-service-technology ul li:hover .sitemap-text {
+  color: #bb06f4;
+  text-decoration: underline;
+}
+
+.sitemap-service-technology .sitemap-container {
+  display: flex;
+  row-gap: 50px;
+  column-gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: first baseline;
+}
+.sitemap-service-technology .sitemap-container .main {
+  flex-basis: 25%;
+}
+.sitemap-service-technology .sitemap-container .services {
+  flex-basis: 30%;
+}
+.sitemap-service-technology .sitemap-container .technology {
+  flex-basis: 40%;
+}
+
+@media only screen and (max-width: 894px) {
+  .sitemap-service-technology .sitemap-container .main {
+    flex-basis: 48%;
+  }
+  .sitemap-service-technology .sitemap-container .services {
+    flex-basis: 48%;
+  }
+  .sitemap-service-technology .sitemap-container .technology {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sitemap-service-technology .sitemap-container {
+    row-gap: 30px;
+  }
+
+  .sitemap-service-technology .sitemap-container .technology {
+    flex-basis: 70%;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .sitemap-service-technology .sitemap-container .main {
+    flex-basis: 100%;
+  }
+  .sitemap-service-technology .sitemap-container .services {
+    flex-basis: 100%;
+  }
+  .sitemap-service-technology .sitemap-container .technology {
+    flex-basis: 90%;
+  }
+}
+.sitemap-service-technology .sitemap-container .technology-listing {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 424px) {
+  .sitemap-service-technology .sitemap-container .technology-listing {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,106 @@
+.get-in-touch-li {
+  width: 80%;
+  transition: 0.5s;
+}
+.get-in-touch-li .get-in-touch-icon {
+  transition: 0.3s;
+}
+.get-in-touch-li:hover .get-in-touch-icon {
+  background-color: #c74ef9;
+}
+.get-in-touch-li:hover .get-in-touch-text {
+  color: #c74ef9;
+}
+.contact-us-form {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-left: 70px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .contact-us-form {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact-us-form {
+    margin-top: 20px;
+  }
+}
+
+/* ANIMATED CLOCK  */
+
+.contact-us-clock {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 100px 20px 100px;
+}
+
+.india-clock-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url("/images/clock.png"); */
+  flex-direction: column;
+  gap: 20px;
+}
+
+.india-clock-container .clock {
+  /* background: url("https://raw.githubusercontent.com/ganeshbabuhc/day1_clock/master/clock.png"); */
+  background-size: 100% 100%;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #1e1e1e;
+  /* box-shadow: 0px 0px 10px 10px rgba(0, 224, 255, 0.2); */
+  background-image: url("/images/clock2.png");
+}
+
+.clock .hor,
+.clock .min,
+.clock .sec {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock .hor .hr {
+  background-color: #3d6cb9;
+  position: absolute;
+  height: 45px;
+  width: 2px;
+  bottom: 0px;
+  z-index: 8;
+  border-radius: 2px;
+}
+
+.clock .min .mn {
+  background-color: #00d1ff;
+  position: absolute;
+  height: 55px;
+  width: 2px;
+  bottom: 0px;
+  z-index: 9;
+  border-radius: 2px;
+}
+
+.clock .sec .sc {
+  background-color: #00fff0;
+  position: absolute;
+  height: 80px;
+  width: 2px;
+  bottom: -15px;
+  z-index: 10;
+  border-radius: 2px;
+}

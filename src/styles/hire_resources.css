@@ -1,0 +1,89 @@
+.form-for-hiring {
+  padding-bottom: 50px;
+}
+
+.input-border:focus {
+  outline: 1px solid #c74ef9ed;
+  outline: 1px solid #28aac4;
+}
+.overflow-visible {
+  background-color: red;
+}
+
+.rate-item{
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+}
+h3.hp-btn {
+  background: #48cdd9;
+  color: #000000;
+  border-radius: 10px;
+}
+.hire-pbutton a {
+  background: #000000;
+  font-weight: 700;
+}
+.img-sec {
+  min-height: 110px;
+}
+.webimg-sec {
+  min-width: 50px;
+}
+.emp-bottomcircle .triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 20px solid #48cdd9;
+  border-bottom: 10px solid transparent;
+}
+.emp-bottomcircle .inner-circle:after {
+  border-radius: 100%;
+  content: '';
+  background-image: linear-gradient(to right,#fff 19%,#b9b9b9 100%);
+  width: 101.5%;
+  height: 101.5%;
+  top: 0;
+  left: 1px;
+  position: absolute;
+  z-index: -1;
+}
+.emp-bottomcircle #emp-point1 .triangle-right {
+  transform: rotate(-13deg);
+}
+.emp-bottomcircle #emp-point2 .triangle-right {
+  transform: rotate(-33deg);
+}
+.emp-bottomcircle #emp-point3 .triangle-right {
+  transform: rotate(-61deg);
+}
+.emp-bottomcircle #emp-point4 .triangle-right {
+  transform: rotate(-114deg);
+}
+.emp-bottomcircle #emp-point5 .triangle-right {
+  transform: rotate(-129deg);
+}
+.emp-bottomcircle #emp-point6 .triangle-right {
+  transform: rotate(-140deg);
+}
+
+@media only screen and (max-width: 640px) {
+  .emp-bottomcircle #emp-point1 .triangle-right {
+    transform: rotate(180deg);
+  }
+  .emp-bottomcircle #emp-point2 .triangle-right {
+    transform: rotate(0deg);
+  }
+  .emp-bottomcircle #emp-point3 .triangle-right {
+    transform: rotate(180deg);
+  }
+  .emp-bottomcircle #emp-point4 .triangle-right {
+    transform: rotate(0deg);
+  }
+  .emp-bottomcircle #emp-point5 .triangle-right {
+    transform: rotate(180deg);
+  }
+  .emp-bottomcircle #emp-point6 .triangle-right {
+    transform: rotate(0deg);
+  }
+}
