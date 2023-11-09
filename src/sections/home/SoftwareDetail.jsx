@@ -170,7 +170,7 @@ function SoftwareDetail() {
        <div className="  bg-white rounded-3xl flex flex-col justify-center items-center p-7 text-center">
         <div  style={{backgroundColor:"#F95A04"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></div>
         <h1 className=" text-2xl font-bold my-5">Great Savings</h1>
-        <p>Save a great deal by avoiding multiple resource hiring, overhead, and operational costs. Hand it over to the certified digital marketing experts in Lucknow, who've been there, done that!</p>
+        <p>Save a great deal by avoiding multiple resource hiring, overhead, and operational costs. Hand it over to the certified digital marketing experts in Lucknow, who have been there, done that!</p>
         </div>
         <div className="my-5 bg-white rounded-3xl flex flex-col justify-center items-center p-7 text-center">
         <div  style={{backgroundColor:"#2FAED8"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></div>
