@@ -6,96 +6,18 @@ import Image from "next/image";
 function Solution({ className }) {
   return (
     <section className=" mt-6 mb-6 w-full">
-      <div className=" container m-auto" >
-        <div className="text-center font-bold text-3xl  container">
-          <span>
-            How do we apply a <span className="font-[800] text-[#f57E32]">Ready-Made</span>{" "}
-            solution?
-          </span>
-        </div>
+      <div className=" container m-auto flex flex-col md:flex-row p-7" >
+       <div className="md:w-1/2 p-6 mt-6">
+        <img src="https://digitalmarketingrobo.com/wp-content/uploads/2021/12/digital-marketing-company-in-lucknow.png" alt=""/>
+       </div>
 
-      <div className=" w-full container  flex justify-center flex-col">
-      <div className=" w-full mt-9 px-5 flex flex-col md:flex-row justify-center ">
-          <div className=" w-full md:w-1/4 mt-3 flex flex-col  items-center text-center">
-            <div >
-              <img src="/icons/Solution1.png" alt="img" height={50} width={50}></img>
-            </div>
-            <div>
-              <h1 className=" font-bold">Consulting</h1>
-              <p className=" ">Choosing the best solution for your buisness</p>
-            </div>
-          </div>
+       <div className=" md:w-1/2 p-4">
+       <p style={{color:"#6EC1E4"}} className=" text-xl font-bold ">Know more about our</p>
+          <h1 style={{color:"#57007F"}} className=" mt-4 text-3xl font-bold">Digital Marketing Services</h1>
+          <p className=" font-sans pr-7 py-7">Increase your Website Traffic and Website Rankings on various types of Search Engines including Google Search Results through Organic Marketing</p>
+          <p className=" font-sans pr-7 ">Pay Per Click and get instant Website Traffic and conversions through Paid Advertising on Google's Search and Display networks</p>
 
-          <div className="  w-full md:w-1/4 mt-3  flex flex-col  items-center text-center">
-            <div>
-              <img src="/icons/Solution2.png" alt="img" height={50} width={50}></img>
-            </div>
-            <div>
-              <h1 className=" font-bold">Estimate</h1>
-              <p className=" ">Counting cost and time efforts.</p>
-            </div>
-          </div>
-
-          <div className="  w-full md:w-1/4  mt-3 flex flex-col  items-center text-center">
-            <div>
-              <img src="/icons/Solution3.png" alt="img" height={50} width={50}></img>
-            </div>
-            <div>
-              <h1 className=" font-bold">Development</h1>
-              <p className=" ">Project Development based on modules.</p>
-            </div>
-          </div>
-
-          <div className="  w-full md:w-1/4  mt-3 flex flex-col  items-center text-center">
-            <div>
-              <img src="/icons/Solution4.png" alt="img" height={50} width={50}></img>
-            </div>
-            <div>
-              <h1 className=" font-bold">Equipment</h1>
-              <p className=" ">Assistance with choosing and integrating equipment</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="  w-full  mt-1 px-5 flex flex-col md:flex-row  justify-center">
-          <div className="  w-full md:w-1/4  mt-3 flex flex-col  items-center text-center">
-            <div>
-              <img src="/icons/Solution5.png" alt="img" height={50} width={50}></img>
-            </div>
-            <div>
-              <h1 className=" font-bold">Support</h1>
-              <p className=" ">Curther technical and buisness support</p>
-            </div>
-          </div>
-
-          <div className="  w-full md:w-1/4  mt-3 flex flex-col  items-center text-center">
-            <div>
-              <img src="/icons/Solution6.png" alt="img" height={50} width={50}></img>
-            </div>
-            <div>
-              <h1 className=" font-bold">Launch</h1>
-              <p className="">product launch</p>
-            </div>
-          </div>
-
-          <div className="   w-full md:w-1/4 mt-3 flex flex-col  items-center text-center">
-            <div>
-              <img src="/icons/Solution7.png" alt="img" height={50} width={50}></img>
-            </div>
-            <div>
-              <h1 className=" font-bold">Training</h1>
-              <p className=" ">Staff training on how to use system</p>
-            </div>
-          </div>
-
-          <div className="  w-full md:w-1/4  flex flex-col justify-center items-center text-center">
-          <div  style={{backgroundColor: "#c74efa"}} className=" text-xl p-4 text-white h-[200px] w-[250px] mt-[40px]">
-            <h1>Finally you will get 100% working ready-made modules configured to your system, tested and ready to work</h1>
-          </div>
-          </div>
-        </div>
-      </div>
-       
+       </div>
       </div>
     </section>
   );

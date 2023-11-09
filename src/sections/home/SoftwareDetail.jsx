@@ -145,73 +145,41 @@ function SoftwareDetail() {
     softwares[0]?.title
   );
   return (
-    <div style={{backgroundColor:"#f4f5fd"}} className="  w-full" >
-      
-      
-
-      <div className="flex md:flex-row flex-col  gap-5 md:px-10  container m-auto   " >
-        {/* aside tag starts here */}
-        <div
-          id="default-sidebar" 
-          style={{backgroundColor: "#c74efa"}}
-          className="  overflow-y-hidden w-full md:w-1/3 "
-
-          aria-label="Sidebar"
-        >
-          <div className="h-full md:py-0 py-5 overflow-y-hidden  ">
-            <ul className=" container h-full flex flex-col    font-medium mt-3  ">
-              {softwares.map((card) => (
-                <li
-                
-                
-                  key={card.id}
-                  
-                  onClick={() => {
-                    
-                    setSelectedcategory(card.title);
-                   
-                    
-                  }}
-                  
-                >
-                  <a
-                    className={` items-center p-2 rounded-lg group cursor-pointer flex hover:text-[#f57E32] ${
-                      selectedcategory === card.title
-                        ? " text-white"
-                        : "text-white"
-                    }`}
-                  >
-                   <Image src={card.icon}  alt="icons" height="30" width="30" />
-                    <span className="ml-3 ">{card.title}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
+    <div style={{backgroundColor:"#7F3AC5"}} className=" w-full" >
+      <div className=" container m-auto flex flex-col md:flex-row py-7 ">
+       <div className=" p-7 w-full md:w-1/3  ">
+       <h1 className=" text-white text-3xl font-bold p-2">
+       What makes us the best Digital Marketing Company in Noida
+       </h1>
+       </div>
+       {/* 1st colum */}
+       <div  className=" w-full md:w-1/3 px-3 mt-12 ">
+        <div className="my-5 bg-white rounded-3xl flex flex-col justify-center items-center p-7 text-center">
+        <div  style={{backgroundColor:"#7F3AC5"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></div>
+        <h1 className=" text-2xl font-bold my-5">Dedicated Specialists</h1>
+        <p>Get dedicated specialists with proven expertise for different key areas of branding and digital marketing in Lucknow. Thus, providing a one stop digital solution for all marketing functions! </p>
         </div>
-
-        {/* aside ends here */}
-        <div  className="  w-full md:w-2/3 p-2">
-          {softwareDetails.filter((data) => data?.category === selectedcategory).map(
-            (card,key) => (
-              <div key={card.id} className=" p-6">
-          
-               <Image className=" " src={card.icon}  style={{filter:"brightness(0.1)"}} alt="icons" height={120} width={120} />
-               <p className="ml-3 text-3xl font-bold mt-5">{card.category}</p>
-               <p className="ml-3 mt-6">{card.ans}</p>
-               <PrimaryButton className=" mt-5" url="/portfolios">
-                Book Free Demo 
-                </PrimaryButton>
-                  </div>  )
-          )}
+        <div className="my-5 bg-white rounded-3xl flex flex-col justify-center items-center p-7 text-center">
+        <div style={{backgroundColor:"#F7415C"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></div>
+        <h1 className=" text-2xl font-bold my-5">Performance Guaranteed</h1>
+        <p>100% Guarantee of increase in Sales, Leads, brand awareness, Social reach & likes. Being the best digital marketing company in Lucknow, we offer you consistent deliverables with a result oriented approach! </p>
         </div>
+       </div>
+   {/* 2nd column */}
+       <div className=" w-full pt-1 mt-1 px-3  ">
+       <div className="  bg-white rounded-3xl flex flex-col justify-center items-center p-7 text-center">
+        <div  style={{backgroundColor:"#F95A04"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></div>
+        <h1 className=" text-2xl font-bold my-5">Great Savings</h1>
+        <p>Save a great deal by avoiding multiple resource hiring, overhead, and operational costs. Hand it over to the certified digital marketing experts in Lucknow, who've been there, done that!</p>
+        </div>
+        <div className="my-5 bg-white rounded-3xl flex flex-col justify-center items-center p-7 text-center">
+        <div  style={{backgroundColor:"#2FAED8"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></div>
+        <h1 className=" text-2xl font-bold my-5">100% Transparency</h1>
+        <p>100% transparent digital marketing services in Lucknow with live operations, reports and status updates. Keeping you up to date with the latest digital marketing trends! </p>
+        </div>
+       </div>
+         {/* 3rd column */}
       </div>
-
-      {/* <SectionContainer>
-        <FaqQuestions />
-      </SectionContainer> */}
-
-      
      
     </div>
   );

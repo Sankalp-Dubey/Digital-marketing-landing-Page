@@ -1,0 +1,7 @@
+@media screen and (max-width:600px) {
+   .cardli{
+    width: 100%;
+    background-color: white;
+    margin: 1rem;
+   }
+}

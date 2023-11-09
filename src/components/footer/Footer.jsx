@@ -9,7 +9,7 @@ import Iconify from "../iconify";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#395673] w-full">
+    <footer style={{backgroundColor:"#7F3AC5"}} className=" bg-[#395673] w-full">
       {/* <CurveShape
         className="-mt-[60px] sm:-mt-[70px] md:-mt-[100px] lg:-mt-[120px]"
         firstColor="#395673"
@@ -128,8 +128,9 @@ const Footer = () => {
             </div>
         </div>
       </div>
-      <div className="bg-dark-teal mt-auto">
-        <SectionContainer>
+      <hr/>
+      <div style={{backgroundColor:"#7F3AC5"}} className="bg-dark-teal mt-auto">
+        <div className=" flex flex-col md:flex-row justify-center" >
           <div className="footer-bottom flex justify-center gap-2 p-3 text-center text-slate-300 text-sm font-semibold">
             <Link href="/term-conditions" className="hover:text-slate-100">
               Term & Conditions
@@ -142,12 +143,13 @@ const Footer = () => {
             <Link href="/cookies-policy" className="hover:text-slate-100">
               Cookies Policy
             </Link>
-            <span>|</span>
-            <Link href="/sitemap" className="hover:text-slate-100">
-              Sitemap
-            </Link>
+            
+            
           </div>
-        </SectionContainer>
+          <div className="footer-bottom flex justify-center gap-2 p-3 text-center text-slate-300 text-sm font-semibold">
+            <p>Copyright © 2023 Spirehubs. All right reserved</p>
+          </div>
+        </div>
       </div>
     </footer>
   );
@@ -156,3 +158,4 @@ const Footer = () => {
 export default Footer;
 
 
+ 

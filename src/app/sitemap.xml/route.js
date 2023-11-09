@@ -16,66 +16,6 @@ function generateSiteMap(posts) {
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.spirehubs.com/company</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/services</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/web-design</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/web-development</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/mobile-app-development</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/software-maintenance</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/digital-marketing</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/hire-resources</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/portfolios</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/contact-us</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/blog</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/careers</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.spirehubs.com/term-conditions</loc>
   <lastmod>2023-10-05T09:31:29+00:00</lastmod>
   <priority>0.80</priority>
@@ -90,56 +30,6 @@ function generateSiteMap(posts) {
   <lastmod>2023-10-05T09:31:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://www.spirehubs.com/sitemap</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/category/web-design</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/category/web-development</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/category/mobile-app-development</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/category/software-maintenance</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/category/digital-marketing</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.spirehubs.com/faq</loc>
-  <lastmod>2023-10-05T09:31:29+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
- ${posts
-   .map(({ slug, updated_at }) => {
-     const dateTime = updated_at.split(" ");
-     return `
-       <url>
-           <loc>${`https://www.spirehubs.com/blog/${slug}`}</loc>
-           <lastmod>${`${dateTime[0]}T${dateTime[1]}+00:00`}</lastmod>
-           <priority>0.64</priority>
-       </url>
-     `;
-   })
-   .join("")}
-
 
 </urlset>`;
 }
