@@ -1,5 +1,7 @@
 "use client";
 import "../../styles/feature.css"
+import { motion } from 'framer-motion';
+
 
 // =================== Tools Technologies =========================== //
 const softwares = [
@@ -56,10 +58,12 @@ export default function Feature() {
               {softwares.map((card) => (
                 <div className=" cardli w-1/3 p-6 mx-4" key={card.id}>
                   <div className=" flex  bg-white rounded-2xl flex-col justify-center items-center p-5">
-                  <div  style={{backgroundColor:"#7F3AC5"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6">
+                  <motion.div    whileHover={{ rotateY: 360 }}
+                      transition={{ duration: 0.5 }}  style={{backgroundColor:"#7F3AC5"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6">
                    <img className=" " src={card.icon}  alt="icons" height="30" width="30" />
-                   </div>
-                    <h1 className="ml-3 py-6 text-3xl font-bold text-center">{card.title}</h1>
+                   </motion.div>
+                    <h1 onMouseOver={(e) => (e.currentTarget.style.color = '#7F3AC5')}
+            onMouseOut={(e) => (e.currentTarget.style.color = 'inherit')} className="ml-3 py-6 text-3xl font-bold text-center">{card.title}</h1>
                     <span className="ml-3 px-6 text-center">{card.ans}</span>
                   </div>
                 </div>

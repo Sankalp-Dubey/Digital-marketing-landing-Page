@@ -1,5 +1,7 @@
 "use client";
 import "../../styles/faqs.css";
+import { color, motion } from 'framer-motion';
+
 // import "../../styles/software.css"
 import { useState } from "react";
 import {
@@ -155,26 +157,34 @@ function SoftwareDetail() {
        {/* 1st colum */}
        <div  className=" w-full md:w-1/3 px-3 mt-12 ">
         <div className="my-5 bg-white rounded-3xl flex flex-col justify-center items-center p-7 text-center">
-        <div  style={{backgroundColor:"#7F3AC5"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></div>
-        <h1 className=" text-2xl font-bold my-5">Dedicated Specialists</h1>
+        <motion.div whileHover={{ rotateY: 360 }}
+                      transition={{ duration: 0.5 }}  style={{backgroundColor:"#7F3AC5"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></motion.div>
+        <h1  onMouseOver={(e) => (e.currentTarget.style.color = '#7F3AC5')}
+            onMouseOut={(e) => (e.currentTarget.style.color = 'inherit')} className=" text-2xl font-bold my-5">Dedicated Specialists</h1>
         <p>Get dedicated specialists with proven expertise for different key areas of branding and digital marketing in Lucknow. Thus, providing a one stop digital solution for all marketing functions! </p>
         </div>
         <div className="my-5 bg-white rounded-3xl flex flex-col justify-center items-center p-7 text-center">
-        <div style={{backgroundColor:"#F7415C"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></div>
-        <h1 className=" text-2xl font-bold my-5">Performance Guaranteed</h1>
+        <motion.div whileHover={{ rotateY: 360 }}
+                      transition={{ duration: 0.5 }} style={{backgroundColor:"#F7415C"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></motion.div>
+        <h1  onMouseOver={(e) => (e.currentTarget.style.color = '#F7415C')}
+            onMouseOut={(e) => (e.currentTarget.style.color = 'inherit')} className=" text-2xl font-bold my-5">Performance Guaranteed</h1>
         <p>100% Guarantee of increase in Sales, Leads, brand awareness, Social reach & likes. Being the best digital marketing company in Lucknow, we offer you consistent deliverables with a result oriented approach! </p>
         </div>
        </div>
    {/* 2nd column */}
-       <div className=" w-full pt-1 mt-1 px-3  ">
+       <div className=" w-full pt-1 mt-1  md:w-1/3 px-3  ">
        <div className="  bg-white rounded-3xl flex flex-col justify-center items-center p-7 text-center">
-        <div  style={{backgroundColor:"#F95A04"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></div>
-        <h1 className=" text-2xl font-bold my-5">Great Savings</h1>
+        <motion.div whileHover={{ rotateY: 360 }}
+                      transition={{ duration: 0.5 }} style={{backgroundColor:"#F95A04"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6 "><img src="/icons/e.png" alt="img" height={50} width={50}  /></motion.div>
+        <h1  onMouseOver={(e) => (e.currentTarget.style.color = '#F95A04')}
+            onMouseOut={(e) => (e.currentTarget.style.color = 'inherit')} className=" text-2xl font-bold my-5">Great Savings</h1>
         <p>Save a great deal by avoiding multiple resource hiring, overhead, and operational costs. Hand it over to the certified digital marketing experts in Lucknow, who have been there, done that!</p>
         </div>
-        <div className="my-5 bg-white rounded-3xl flex flex-col justify-center items-center p-7 text-center">
-        <div  style={{backgroundColor:"#2FAED8"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></div>
-        <h1 className=" text-2xl font-bold my-5">100% Transparency</h1>
+        <div className="my-5  bg-white rounded-3xl flex flex-col justify-center items-center p-7 text-center">
+        <motion.div  whileHover={{ rotateY: 360 }}
+                      transition={{ duration: 0.5 }} style={{backgroundColor:"#2FAED8"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6"><img src="/icons/e.png" alt="img" height={50} width={50} ></img></motion.div>
+        <h1 onMouseOver={(e) => (e.currentTarget.style.color = '#2FAED8')}
+            onMouseOut={(e) => (e.currentTarget.style.color = 'inherit')} className="  text-2xl font-bold my-5 ">100% Transparency</h1>
         <p>100% transparent digital marketing services in Lucknow with live operations, reports and status updates. Keeping you up to date with the latest digital marketing trends! </p>
         </div>
        </div>

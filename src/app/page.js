@@ -54,8 +54,12 @@ export default function Home() {
           alt="img"
         />
         <div className="absolute top-0 md:top-1/4 md:px-5 w-1/2 transform container   z-10">
-          <h1 className="text-white font-semibold md:font-bold  md:text-2xl lg:text-5xl p-4">Your Dedicated Web Development ExpertJust a Click Away! </h1>
+          <h1 className="text-white font-semibold md:font-bold  md:text-2xl lg:text-5xl md:p-4 p-2">Your Dedicated Web Development ExpertJust a Click Away! </h1>
+          <div className="md:py-7 md:px-4 px-2">
+          <button style={{backgroundColor:"#7F3AC5"}} className=" p-1 md:p-2 rounded-lg text-white font-sans sm:text-base md:text-xl"> Hire Now!</button>
         </div>
+        </div>
+        
       </div>
       </div>
 
@@ -65,7 +69,7 @@ export default function Home() {
       <Solution />
       <Service />
       <OurProject />
-      {/* <Faq /> */}
+      <Faq />
     </main>
   );
 }

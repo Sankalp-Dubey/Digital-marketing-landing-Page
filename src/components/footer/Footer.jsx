@@ -9,7 +9,7 @@ import Iconify from "../iconify";
 
 const Footer = () => {
   return (
-    <footer style={{backgroundColor:"#7F3AC5"}} className=" bg-[#395673] w-full">
+    <footer style={{backgroundColor:"#c552ff "}} className=" bg-[#395673] w-full -z-10 sm:pt-7">
       {/* <CurveShape
         className="-mt-[60px] sm:-mt-[70px] md:-mt-[100px] lg:-mt-[120px]"
         firstColor="#395673"
@@ -18,9 +18,9 @@ const Footer = () => {
         fourthColor="#395673"
         curveD="M0,160L120,138.7C240,117,480,75,720,85.3C960,96,1200,160,1320,192L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
       /> */}
-      <div className=" pb-1 container m-auto w-full">
+      <div className=" pb-1 container m-auto w-full pt-7 ">
         
-          <div className="footer-top w-full p-5 flex flex-col md:flex-row     gap-5 text-slate-300 container m-auto">
+          <div className="footer-top w-full p-5 flex flex-col md:flex-row     gap-5 text-white container m-auto">
             <div className="logo w-full  md:p-6 flex  items-center flex-col text-center ">
               <Image
                 src="/icons/Foot1.png"
@@ -29,7 +29,7 @@ const Footer = () => {
                 height={70}
                 className="h-14 w-auto my-5"
               />
-              <h4 className="font-bold text-xl text-slate-200 mb-3">
+              <h4 className="font-bold text-xl text-white mb-3">
                 Get in Touch
               </h4>
               <div className="flex flex-row gap-1">
@@ -47,7 +47,7 @@ const Footer = () => {
                 height={70}
                 className="h-14 w-auto my-5"
               />
-              <h4 className="font-bold text-xl text-slate-200 mb-3">
+              <h4 className="font-bold text-xl  text-white mb-3">
                 Social Media
               </h4>
               <div className="flex flex-row gap-1">
@@ -108,7 +108,7 @@ const Footer = () => {
                 height={70}
                 className="h-14 w-auto my-5"
               />
-              <h4 className="font-bold text-xl text-slate-200 mb-3">Useful Links</h4>
+              <h4 className="font-bold text-xl  text-white mb-3">Useful Links</h4>
               <div className="flex flex-col gap-2">
                 <Link href="https://www.spirehubs.com/blog" className="hover:text-slate-100">
                   Blog

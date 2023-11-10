@@ -39,11 +39,12 @@ function PortfolioTab() {
     ],
   };
   return (
-    <div className='w-3/4 m-auto'>
-      <div className="mt-10">
-      <Slider {...settings}>
+    <div className='w-3/4 m-auto pb-7'>
+      <div className="mt-10 pb-7">
+     <div className=" pb-7">
+     <Slider {...settings}>
         {data.map((d) => (
-          <div key={d.name} className="bg-white h-[450px] text-black rounded-xl">
+          <div key={d.name} className="bg-white h-[450px] text-black rounded-xl ">
             <div style={{backgroundColor:"#7F3AC5"}} className='h-56  flex justify-center items-center rounded-t-xl'>
               <img src={d.img} alt="" className="h-44 w-44 rounded-full"/>
             </div>
@@ -56,6 +57,7 @@ function PortfolioTab() {
           </div>
         ))}
       </Slider>
+     </div>
       </div>
       
     </div>

@@ -38,75 +38,38 @@ const allProcess = [
 
 export default function Faq() {
   return (
-    <section className="mt-3 mb-6 w-full ">
-     <div className=" container m-auto p-6">
-     <div className=" flex justify-center flex-col items-center  ">
-         <p
-        className="mt-0 w-full font-bold  text-center text-3xl">Frequently <span className=" text-[#f57E32] ">Asked</span> Question
-        </p>
-        <p  className=" mt-5 p-5 ">
-          Take a look at a few of our projects for buisness like yours. we take great pride in finding solutions to your need
-        </p>
-      </div>
+    <section style={{marginTop: "-85px", marginBottom:"-65px"}} className=" mb-6 w-full">
+    <div style={{backgroundColor: "#7F3AC5"}} className=" container m-auto p-6 w-3/4 flex flex-col md:flex-row text-center">
+     <div className=" flex flex-row justify-center items-center md:w-1/3 p-2">
+     <div>
 
-      <div className=" flex flex-col md:flex-row container w-full  " > 
-      <div className="  px-5 mx-5 ">
-        <div className=" ">
-          <h1 className=" font-bold text-slate-700 my-5">
-          How can I log into my account?
-          </h1>
-          <p>
-          If you want to fifor your business, you must first determine what type of website you need
-          </p>
-        </div>
-        <div className=" ">
-          <h1 className=" font-bold text-slate-700 my-5">
-          How can I log into my account?
-          </h1>
-          <p>
-          If you want to fifor your business, you must first determine what type of website you need
-          </p>
-        </div>
-        <div className=" ">
-          <h1 className=" font-bold text-slate-700 my-5">
-          How can I log into my account?
-          </h1>
-          <p>
-          If you want to fifor your business, you must first determine what type of website you need
-          </p>
-        </div>
-        
-      </div>
-
-      <div className="  px-5 mx-5">
-        <div className=" ">
-          <h1 className=" font-bold text-slate-700 my-5">
-          How can I log into my account?
-          </h1>
-          <p>
-          If you want to fifor your business, you must first determine what type of website you need
-          </p>
-        </div>
-        <div className=" ">
-          <h1 className=" font-bold text-slate-700 my-5">
-          How can I log into my account?
-          </h1>
-          <p>
-          If you want to fifor your business, you must first determine what type of website you need
-          </p>
-        </div>
-        <div className=" ">
-          <h1 className=" font-bold text-slate-700 my-5">
-          How can I log into my account?
-          </h1>
-          <p>
-          If you want to fifor your business, you must first determine what type of website you need
-          </p>
-        </div>
-        
-      </div>
-      </div>
      </div>
+     <div >
+       <h1 className=" text-xl text-white font-sans font-bold">Noida</h1>
+        <p className="  font-sans text-gray-400">our office</p>
+       </div>
+     </div>
+
+     <div className=" flex flex-row justify-center p-2 md:w-1/3">
+     <div>
+
+     </div>
+     <div>
+       <h1 className=" text-xl text-white font-sans font-bold">+91 8467947766</h1>
+        <p className="  font-sans text-gray-400">Give us a call</p>
+       </div>
+     </div>
+
+     <div className=" flex flex-row justify-center p-2 md:w-1/3">
+     <div>
+
+     </div>
+     <div>
+       <h1 className=" text-xl text-white font-sans font-bold">info@spirehub.com</h1>
+        <p className="  font-sans text-gray-400">Get in touch</p>
+       </div>
+     </div>
+    </div>
     </section>
   );
 }
