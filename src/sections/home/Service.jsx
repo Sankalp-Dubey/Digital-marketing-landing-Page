@@ -14,7 +14,7 @@ import React from "react";
 function Service() {
   return (
    
-    <section style={{backgroundColor:"#7F3AC5"}} className=" w-full p-7  ">
+    <section style={{backgroundColor:"#c552ff "}} className=" w-full p-7  ">
      <div className=" container m-auto flex flex-col md:flex-row pt-7 px-7">
      <div className="md:w-1/2 p-7">
       <p className=" text-xl font-bold font-sans text-white"> We Measure Our Performance</p>

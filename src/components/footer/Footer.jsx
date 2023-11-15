@@ -9,7 +9,7 @@ import Iconify from "../iconify";
 
 const Footer = () => {
   return (
-    <footer style={{backgroundColor:"#c552ff "}} className=" bg-[#395673] w-full -z-10 sm:pt-7">
+    <footer style={{backgroundColor:"#395673 "}} className=" bg-[#395673] w-full -z-10 sm:pt-7">
       {/* <CurveShape
         className="-mt-[60px] sm:-mt-[70px] md:-mt-[100px] lg:-mt-[120px]"
         firstColor="#395673"
@@ -129,7 +129,7 @@ const Footer = () => {
         </div>
       </div>
       <hr/>
-      <div style={{backgroundColor:"#7F3AC5"}} className="bg-dark-teal mt-auto">
+      <div style={{backgroundColor:"#395673"}} className="bg-dark-teal mt-auto">
         <div className=" flex flex-col md:flex-row justify-center" >
           <div className="footer-bottom flex justify-center gap-2 p-3 text-center text-slate-300 text-sm font-semibold">
             <Link href="/term-conditions" className="hover:text-slate-100">

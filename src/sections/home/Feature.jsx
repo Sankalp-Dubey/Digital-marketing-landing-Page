@@ -59,10 +59,10 @@ export default function Feature() {
                 <div className=" cardli w-1/3 p-6 mx-4" key={card.id}>
                   <div className=" flex  bg-white rounded-2xl flex-col justify-center items-center p-5">
                   <motion.div    whileHover={{ rotateY: 360 }}
-                      transition={{ duration: 0.5 }}  style={{backgroundColor:"#7F3AC5"}} className=" h-[200px] w-[200px] rounded-full my-4 p-6">
+                      transition={{ duration: 0.5 }}  style={{backgroundColor:"#c552ff "}} className=" h-[200px] w-[200px] rounded-full my-4 p-6">
                    <img className=" " src={card.icon}  alt="icons" height="30" width="30" />
                    </motion.div>
-                    <h1 onMouseOver={(e) => (e.currentTarget.style.color = '#7F3AC5')}
+                    <h1 onMouseOver={(e) => (e.currentTarget.style.color = '#c552ff')}
             onMouseOut={(e) => (e.currentTarget.style.color = 'inherit')} className="ml-3 py-6 text-3xl font-bold text-center">{card.title}</h1>
                     <span className="ml-3 px-6 text-center">{card.ans}</span>
                   </div>

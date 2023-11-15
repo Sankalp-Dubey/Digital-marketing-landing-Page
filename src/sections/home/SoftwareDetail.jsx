@@ -147,10 +147,10 @@ function SoftwareDetail() {
     softwares[0]?.title
   );
   return (
-    <div style={{backgroundColor:"#7F3AC5"}} className=" w-full" >
+    <div style={{backgroundColor:"#c552ff "}} className=" w-full" >
       <div className=" container m-auto flex flex-col md:flex-row py-7 ">
        <div className=" p-7 w-full md:w-1/3  ">
-       <h1 className=" text-white text-3xl font-bold p-2">
+       <h1 style={{letterSpacing:"0.5px"}} className=" text-white text-3xl font-bold font-sans p-7">
        What makes us the best Digital Marketing Company in Noida
        </h1>
        </div>

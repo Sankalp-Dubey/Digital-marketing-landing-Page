@@ -45,7 +45,7 @@ function PortfolioTab() {
      <Slider {...settings}>
         {data.map((d) => (
           <div key={d.name} className="bg-white h-[450px] text-black rounded-xl ">
-            <div style={{backgroundColor:"#7F3AC5"}} className='h-56  flex justify-center items-center rounded-t-xl'>
+            <div style={{backgroundColor:"#c552ff"}} className='h-56  flex justify-center items-center rounded-t-xl'>
               <img src={d.img} alt="" className="h-44 w-44 rounded-full"/>
             </div>
 

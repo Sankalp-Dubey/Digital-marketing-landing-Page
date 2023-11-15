@@ -39,13 +39,13 @@ const allProcess = [
 export default function Faq() {
   return (
     <section style={{marginTop: "-85px", marginBottom:"-65px"}} className=" mb-6 w-full">
-    <div style={{backgroundColor: "#7F3AC5"}} className=" container m-auto p-6 w-3/4 flex flex-col md:flex-row text-center">
+    <div style={{backgroundColor: "#1CF3F8"}} className=" container m-auto p-6 w-3/4 flex flex-col md:flex-row text-center">
      <div className=" flex flex-row justify-center items-center md:w-1/3 p-2">
      <div>
 
      </div>
      <div >
-       <h1 className=" text-xl text-white font-sans font-bold">Noida</h1>
+       <h1 className=" text-xl  font-sans font-bold">Noida</h1>
         <p className="  font-sans text-gray-400">our office</p>
        </div>
      </div>
@@ -55,7 +55,7 @@ export default function Faq() {
 
      </div>
      <div>
-       <h1 className=" text-xl text-white font-sans font-bold">+91 8467947766</h1>
+       <h1 className=" text-xl font-sans font-bold">+91 8467947766</h1>
         <p className="  font-sans text-gray-400">Give us a call</p>
        </div>
      </div>
@@ -65,7 +65,7 @@ export default function Faq() {
 
      </div>
      <div>
-       <h1 className=" text-xl text-white font-sans font-bold">info@spirehub.com</h1>
+       <h1 className=" text-xl  font-sans font-bold">info@spirehub.com</h1>
         <p className="  font-sans text-gray-400">Get in touch</p>
        </div>
      </div>

@@ -1,4 +1,8 @@
+"use client";
+
 import "../styles/home.css";
+import { motion } from 'framer-motion';
+
 
 import {
   OutlinedWhiteButton,
@@ -50,13 +54,15 @@ export default function Home() {
       <div className="relative ">
         <img
           className="w-full"
-          src="https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-creative-cloud-technology-hand-poster-background-image_205864.jpg"
+          src="https://t3.ftcdn.net/jpg/04/42/44/98/240_F_442449827_ispo2oI83ffX0TSax4Pgdd7xkqCA5ThA.jpg"
           alt="img"
         />
         <div className="absolute top-0 md:top-1/4 md:px-5 w-1/2 transform container   z-10">
-          <h1 className="text-white font-semibold md:font-bold  md:text-2xl lg:text-5xl md:p-4 p-2">Your Dedicated Web Development ExpertJust a Click Away! </h1>
+          <h1 style={{letterSpacing:"0.5px"}} className="text-white font-semibold md:font-bold font-sans  md:text-2xl lg:text-4xl md:p-4 p-2">Your Dedicated Web Development Expert Just a Click Away! </h1>
           <div className="md:py-7 md:px-4 px-2">
-          <button style={{backgroundColor:"#7F3AC5"}} className=" p-1 md:p-2 rounded-lg text-white font-sans sm:text-base md:text-xl"> Hire Now!</button>
+          <PrimaryButton className="  mt-5" url="/portfolios">
+                Book Free Demo 
+                </PrimaryButton>
         </div>
         </div>
         

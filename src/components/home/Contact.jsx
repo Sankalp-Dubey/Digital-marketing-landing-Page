@@ -36,9 +36,9 @@ const Contact = () => {
 
       <div className="  w-full  px-3  m-0 md:p-8 ">
        <div className=" pb-4 flex flex-col md:flex-row justify-center ">
-       <input  className="  outline-none border-b-2 rounded-full my-2 p-4 md:w-1/3 " type="text" placeholder="Type website URL"></input>
-       <input   className="  outline-none border-b-2 rounded-full my-2 md:w-1/3 md:border-l-8 md:-ml-12 border-fuchsia-500 p-4" type="email" placeholder="Your Mobile no."></input>
-       <button style={{backgroundColor:"#7F3AC5"}} className="  my-2 p-4 md:w-1/3  font-sans text-white rounded-full  md:-ml-12  cursor-pointer hover:bg-slate-400" type="submit">GET RECOMMENDATIONS</button>
+       <input  className=" text-black font-sans font-bold outline-none border-b-2 rounded-full my-2 p-4 md:w-1/3 " type="text" placeholder="Type website URL"></input>
+       <input   className=" text-black font-sans font-bold  outline-none border-b-2 rounded-full my-2 md:w-1/3 md:border-l-8 md:-ml-12 border-fuchsia-500 p-4" type="email" placeholder="Your Mobile no."></input>
+       <button style={{backgroundColor:"#1CF3F8"}} className="  my-2 p-4 md:w-1/3  font-sans font-semibold text-black rounded-full  md:-ml-12  cursor-pointer hover:bg-slate-400" type="submit">GET RECOMMENDATIONS</button>
        </div>
       </div>
       </div>
