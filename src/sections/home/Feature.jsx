@@ -49,7 +49,7 @@ export default function Feature() {
        <div className=" container m-auto p-6">
         <div className=" text-center  pt-5">
           <p style={{color:"#6EC1E4"}} className=" text-xl font-bold ">Know more about our</p>
-          <h1 style={{color:"#57007F"}} className=" mt-4 text-3xl font-bold">Digital Marketing Services</h1>
+          <h1 style={{color:"#c552ff"}} className=" mt-4 text-3xl font-bold">Digital Marketing Services</h1>
         </div>
 
         <div>
